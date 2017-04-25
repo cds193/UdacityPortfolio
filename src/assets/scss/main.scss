@@ -1,0 +1,49 @@
+body {
+    margin: rem-calc(10);  //rem-calc() is supported through Foundation
+}
+
+header {
+    padding: rem-calc(5) 0;
+
+    h1 {
+        font-family: 'Pacifico', cursive;
+    }
+
+    .title {
+        text-transform: uppercase;
+        color: $medium-purple;
+    }
+}
+
+.hero-image {
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    padding: rem-calc(10) 0 rem-calc(20);
+}
+
+.section-header {
+    font-weight: 600;
+    color: $light-purple;
+    padding-top: rem-calc(30);
+}
+
+.featured-work {
+    img {
+        opacity: 0.8;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    h4 {
+        color: $medium-purple;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        line-height: .8;
+    }
+
+    span {
+        font-size: $small-font-size;
+    }
+}
